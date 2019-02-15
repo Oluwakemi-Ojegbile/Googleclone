@@ -1,0 +1,160 @@
+body {
+font-size: 10px;
+font-family: arial, sans-serif;
+text-align: center;
+margin: 0px;
+padding: 0px;
+}
+
+a{
+text-decoration: none;
+}
+
+a:hover{
+text-decoration: underline;
+}
+
+button {
+	font-weight: bold;
+	font-family: arial;
+}
+
+.topright-corner {
+height: 200px;
+font-size: 9pt;
+}
+
+.topright-corner nav{
+	float: right;
+	margin: 7px 21px;
+}
+
+.topright-corner nav a {
+	margin: 5px 10px;
+	color: rgb(64,64,64);
+}
+
+.topright-corner nav a:hover {
+	color: rgb(64,64,64);
+}
+
+.topright-corner nav button {
+	padding: 7px 12px;
+	border-radius: 2px;
+	border: 1px blue;
+	font-size: 9pt;
+	background-color: rgb(00,70,200);	
+}
+
+.topright-corner nav img{
+	margin: 0 7.5px;
+	height: 22px;
+	position: relative;
+	top: 7px;
+}
+
+img {
+	text-align: center;
+	clear: both;
+	margin: 10% 0 0 0;
+	margin-bottom: 30%
+}
+img {
+	max-width: 40%;
+	margin: 15px;
+	padding-bottom: 8px;
+}
+
+#search {
+	width: 500px;
+	border:1px solid #d9d9d9;
+	padding: 20px;
+	font-size: 11pt;
+	height: 5px;
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAACrElEQVR42u2Xz2sTQRSAX8VSb1K8iNqKooJH2Ux6Ksn+iPQqxZMIehJB0do/IMhmQWsvHr2KSEGk0tSLIoWIYNUKij20F2/N7iaUZnYT0kYzzhMKs0HDJiTdLcwHDwKZSd63781LBiQSSW9JZdkhzfKm1Rz9mjZp/W9YdEU3vXv4HsQZ40FtNG36q5rls//Ej4tmbSS2T15Mvp3ExOPmEMQNbBtMMEyoljcFcQN7PqyAlqNfIG7gYQ0tYNIaxA1MrJPY3wImbUqBKAXSFv0tBSIVMOkvKRDtGKWN/T6FdqRAxFNoWwpEPIXqUqBT6ALU/UVgu8GW4GD3f6f9TRDYNJTDrk7YbtiqUumHwIYoUJuHERDAS0r4CvgFECgbY+cFAR7KT+g1POmCKFDNw6WggHc3fBtVb4CAoyauBgXIG+g1Xh5mRAGah6cggBd11fK/h7lOprIs0H6uRl6KAo5O7kOv4QmPiwJ4Jqqv4FiwCtXjvD2+tRmfK6kZ/ygI2HritK0rDVGgrClJ6DWMwYC/AGuCBMYcIC2V0CzvjmbRz3j3xUjn6CfeYreUJ2wQkGD75INPX1mFfsEFrrcIYCvdhC4paWQakxajpJMr0C9YFg54i7AsClRmh9/xnr0NHcInzZStk2aLwAcGMAD9pPIazvFKVDD5rdnhJeHLX5RTyRPQHpz5o66emMc9wdlPtvA8wF7Aq2BUHh1525qEo5JtR1WeOXpickO9cJIpyuD6xJmhYiZ5ytWSl3mlnuOaf+2zDaLDXmJrSgZ/MYVEugo+gSh+FkSBa4yd5Ul87DZ5XpFl/AyIEjzYjkau8WqshU2cr13HPbgX4gJOD97n465GZlyVvC9mSKloKI2iTnbwNT+gBX54H+IaXAtxJzE3ycSAFqSAFJACUkAikXD+AHj5/wx2o5osAAAAAElFTkSuQmCC) no-repeat;
+    background-position: 98.5%;
+    background-size: 1.5em;
+
+
+}
+
+.button {
+margin:14px 7px 0 5px;
+padding: 7px 8px;
+border-radius: 5px;
+color: rgba(40,40,40,0.8);
+
+}
+
+p{
+margin-bottom: 0%;
+background-color: rgba(40 40 40 0.8);
+font-size: 9pt;
+}
+
+.leftside {
+	position: fixed;
+	bottom: 0;
+	height: 42px;
+	width: 100%;
+	font-size: 10pt;
+	border: transparent;
+	border-width: 1px
+    border-color:rgba(40 40 40 0.8);
+    background-color: rgba(64,64,64,0.1);
+}
+
+.rightside {
+	position: fixed;
+	bottom: 0;
+	height: 42px;
+	width: 100%;
+	font-size: 10pt;
+	border: transparent;
+	border-width: 1px
+    border-color:rgba(40 40 40 0.8);
+    background-color: rgba(64,64,64,0.1);
+}
+
+footer {
+position:fixed;
+bottom:0;
+height: 50px;
+width: 100%
+font-size: 10pt;
+border-width: 100PX;
+border-color:rgba(40 40 40 0.8);
+background-color: rgba(64,64,64,0.1);
+padding-top: 10PX;
+margin-bottom: 10PX;
+}
+
+.nigeria {
+	float: left;
+	padding-left: 20px;
+	border-left: 1px;
+
+}
+
+.leftside {
+float: right;
+margin-right: 10px;
+}
+
+.rightside {
+float: left;
+margin-left: 40px;
+}
+
+footer nav {display: inline-block;
+padding: 1px 0 0 0;
+}
+
+footer nav a {
+	padding:7px 14px;
+	color: rgba(64 64 64);
+}
+
+footer nav a hover{
+color: rgb(00 00 00);	
+}
